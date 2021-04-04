@@ -68,32 +68,52 @@
 // user navigation
 
 .user-nav {
-  background-color: greenyellow;
+  align-self: stretch;
+
+  display: flex;
+  align-items: center;
+
+  & > * {
+    padding: 0 1.5rem;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  } // all of the direct children
+
+  & > *:hover {
+    background-color: var(--color-grey-light-2);
+  }
+
   &__icon-box {
+    position: relative;
   }
 
   &__icon {
     height: 3rem;
     width: 3rem;
+    fill: var(--color-primary-grey-dark-2);
   }
 
   &__notification {
-  }
+    font-size: 0.8rem;
+    height: 1.75rem;
+    width: 1.75rem;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    color: #fff;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.1rem;
 
-  &__icon-box {
-  }
-
-  &__notification {
-  }
-
-  &__user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &__user-photo {
     height: 4rem;
     border-radius: 50%;
-  }
-
-  &__user-name {
+    margin-right: 1rem;
   }
 }
