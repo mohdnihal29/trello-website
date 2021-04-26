@@ -1,5 +1,9 @@
 ## App for hotel booking(Static responsive website)
 
-This app was created using Flexbox in CSS and HTML. Currently there is no use of Javascript.
 
 <strong>website hosted on : https://trellohotels.netlify.app/ </strong>
+
+<strong>Technologies used in this website includes:</strong>
+1. Css - FlexBox
+2. HTML
+3. No JavaScript Use
