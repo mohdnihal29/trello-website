@@ -7,3 +7,6 @@
 1. Css - FlexBox
 2. HTML
 3. No JavaScript Use
+
+<h2> The Website was create to show the skills in CSS and HTML </h2>
+Soon Javascript will be added to the website to increase performance. 
