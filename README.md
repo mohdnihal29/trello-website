@@ -10,3 +10,6 @@
 
 <h2> The Website was create to show the skills in CSS and HTML </h2>
 Soon Javascript will be added to the website to increase performance. 
+
+
+All rights reserved @NihalMohammed
